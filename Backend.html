@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Página Web</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="frontend.css">
+    <style>
+        /* Estilos generales */
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        .head, .content {
+            width: 80%;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .logo a, .navbar a, h2, h3, p, .btn {
+            text-align: center;
+            display: block;
+            margin: 10px 0;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .box-container, .btn-home, .container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        .box {
+            border: 1px solid #ccc;
+            padding: 20px;
+            width: 150px;
+            text-align: center;
+        }
+
+        /* Estilos para centrar y ajustar el video */
+        .video-container {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0; /* Espacio entre el video y otros elementos */
+        }
+
+        .video-container video {
+            max-width: 100%; /* Hace que el video sea adaptable */
+            width: 600px; /* Ancho del video */
+            border-radius: 8px; /* Borde redondeado opcional */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra opcional */
+        }
+
+        /* Estilos para el audio */
+        .audio-container {
+            margin: 20px 0; /* Espacio entre el audio y otros elementos */
+        }
+
+        .audio-container audio {
+            width: 100%; /* Hace que el audio sea adaptable */
+            max-width: 600px; /* Ancho máximo del reproductor de audio */
+        }
+    </style>
+</head>
+<body>
+
+<div class="head">
+    <div class="logo">
+        <a href="#">Logo</a>
+    </div>
+    <nav class="navbar">
+        <a href="#">Inicio</a>
+        <a href="#">Nosotros</a>
+        <a href="#">Contacto</a>
+        <a href="#">Producto</a>
+        <a href="#">Precio</a>
+    </nav>
+</div>
+
+<header class="content header">
+    <h2 class="title">Inicio</h2>
+    <p>Este Proyecto Es Sobre Como crear Una Pagina Web En Html y Css, En La Pagina se pueden Apreciar Imagenes y videos
+        Y Sonidos Espero Que lo Disfruten</p>
+
+    <div class="btn-home">
+        <a href="#" class="btn">Saber Más</a>
+        <a href="#" class="btn">Saber Más</a>
+    </div>
+</header>
+
+<section class="content suau">
+    <h2>🤩Porsche Envigado🤩</h2>
+    <p>Aquí Podrás Ver la Gran Variedad de 911</p>
+
+    <div class="video-container">
+        <video controls>
+            <source src="porshe777.mp4" type="video/mp4">
+            Tu navegador no soporta el elemento de video.
+        </video>
+    </div>
+
+    <div class="box-container">
+        <div class="box">
+            <i class="fab fa-angular"></i>
+            <h3>Porsche 911 GT3 Carreras</h3>
+            <p>Si Lo Sueñas Lo Materializas</p>
+        </div>
+
+        <div class="box">
+            <i class="fab fa-apple"></i>
+            <h3>Porsche 911 Boxter Turbo</h3>
+            <p>Lo Más Rápido y Más Veloz de Lo que</p>
+        </div>
+
+        <div class="box">
+            <i class="fab fa-android"></i>
+            <h3>Porsche 911 Clásico</h3>
+            <p>Cualquiera que sueñe con un Porsche suele imaginarlo.</p>
+        </div>
+    </div>
+</section>
+
+<section class="content about">
+    <h2 class="title">¿Qué Cuesta Tu Felicidad?🤑</h2>
+    <p>👽Aquí Podrás Ver Lo Mejor Del Porsche 911, Desde Medellín-Envigado👽</p>
+</section>
+
+<section class="content price">
+    <article class="container"></article>
+</section>
+
+<section class="content contact">
+    <h2 class="title">Contáctenos</h2>
+    <div class="audio-container">
+        <audio controls>
+            <source src="temota.mp3" type="audio/mp3">
+            Tu navegador no soporta el elemento de audio.
+        </audio>
+    </div>
+    <p>🥸PROFE UN 5 PUES JAJAJA GRACIAS🥸</p>
+    <figure class="map">
+        <audio controls autoplay
+        <source src="temota.mp3">
+        </audio>
+        <img src="rafa.jpeg" height="220px" width="100%" alt="Mapa">
+
+    </figure>
+</section>
+
+</body>
+</html>
